@@ -64,7 +64,7 @@ export default class Personal extends Component {
 
         return (
             <div className='productsOuter'>
-                <div className="productsHeader">
+                <div className="productsHeader" id="professionHeader">
                     <div className="logoSmall"></div>
                     <h1>Personal</h1>
                 </div>

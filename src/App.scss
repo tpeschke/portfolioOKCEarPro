@@ -390,9 +390,15 @@ h3:hover {
   transition: .6s
 }
 
+.dropBodyInherit {
+  display: inherit;
+  opacity: 0;
+}
+
 .dropPerformanceOpen {
   display: inherit;
-  height: 153px;
+  opacity: 1;  
+  height: 145px;
   margin-top: 10px;
   padding: 15px;
   border-bottom: 1px solid rgb(196, 196, 0);
@@ -401,8 +407,9 @@ h3:hover {
 
 .dropColorOpen {
   display: inherit;
+  opacity: 1; 
   text-align: center;
-  height: 153px;
+  height: 65px;
   margin-top: 10px;
   padding: 15px;
   border-bottom: 1px solid rgb(196, 196, 0);
@@ -411,8 +418,9 @@ h3:hover {
 
 .dropMoldOpen {
   display: inherit;
+  opacity: 1; 
   text-align: center;
-  height: 153px;
+  height: 61px;
   margin-top: 10px;
   padding: 15px;
   border-bottom: 1px solid rgb(196, 196, 0);
@@ -887,7 +895,7 @@ h4 {
 
 // ===================================
 
-@media (min-width: 1441px) {
+@media (min-width: 1440px) {
   .personalCardShell {
     width: 350px;
   }
@@ -897,6 +905,12 @@ h4 {
   .contactHeader {
     width: 30%;
     margin: 10px auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .dropColorOpen {
+    height: 65px;
   }
 }
 
@@ -915,9 +929,18 @@ h4 {
     align-content: center;
     margin-top: 15px;
   }
+  #professionHeader {
+    flex-direction: row;
+  }
   .productsNav {
     width: 60vw;
     margin: 20px 0 5px 0;
+  }
+  .dropColorOpen {
+    height: 83px;
+  }
+  .dropMoldOpen {
+    height: 80px;
   }
 }
 
@@ -942,5 +965,11 @@ h4 {
   .productsNav {
     width: 90vw;
     margin: 20px 0 5px 0;
+  }
+  .dropColorOpen {
+    height: 145px;
+  }
+  .dropMoldOpen {
+    height: 145px;
   }
 }

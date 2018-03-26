@@ -6,7 +6,7 @@ export default class Professional extends Component {
     render() {
         return (
             <div className='productsOuter'>
-                <div className="productsHeader">
+                <div className="productsHeader" id="professionHeader">
                     <div className="logoSmall"></div>
                     <h1>Professional</h1>
                 </div>

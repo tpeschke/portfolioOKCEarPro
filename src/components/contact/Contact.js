@@ -8,7 +8,7 @@ export default class Contact extends Component {
     render() {
         return (
             <div className='productsOuter' id="contactOuter">
-                <div className="productsHeader">
+                <div className="productsHeader" id="professionHeader">
                     <div className="logoSmall"></div>
                     <h1>Contact</h1>
                 </div>
