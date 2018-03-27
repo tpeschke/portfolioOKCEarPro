@@ -42,24 +42,28 @@ class NavBar extends Component {
 
 
                 <div className={this.state.show ? 'navBarOuter navReveal' : 'navBarOuter'} id="menu">
-                <div className="navMenuDisplayContainer">
-                <Link to="/"><div className="navLogo"></div></Link>
-                    <div className="navMenuHolder" onClick={_ => this.setState({ menu: !this.state.menu })}>
-                        <div className={this.state.menu ? "navMenuBar" : "navMenuBar navMenuBarOpen1"}></div>
-                        <div className={this.state.menu ? "navMenuBar" : "navMenuBar navMenuBarOpen2"}></div>
-                        <div className={this.state.menu ? "navMenuBar" : "navMenuBar navMenuBarOpen3"}></div>
-                    </div>
-                </div>
-
-                    <div className={this.state.menu ? "navMenuCover navMenuCoverHide" : "navMenuCover"}>
-                        <div className="navMenuCoverContainer">
-                            <Link to="/"><h3 className={route === '/' ? 'active' : ''} onClick={_ => this.setState({ menu: !this.state.menu })}>HOME</h3></Link>
-                            <Link to="/products"><h3 className={route === '/products' ? 'active' : ''} onClick={_ => this.setState({ menu: !this.state.menu })}>PRODUCTS</h3></Link>
-                            <Link to="/professional"><h3 className={route === '/professional' ? 'active' : ''} onClick={_ => this.setState({ menu: !this.state.menu })}>PROFESSIONAL</h3></Link>
-                            <Link to="/personal"><h3 className={route === '/personal' ? 'active' : ''} onClick={_ => this.setState({ menu: !this.state.menu })}>PERSONAL</h3></Link>
-                            <Link to="/aboutus"><h3 className={route === '/aboutus' ? 'active' : ''} onClick={_ => this.setState({ menu: !this.state.menu })}>ABOUT US</h3></Link>
-                            <Link to="/contact"><h3 className={route === '/contact' ? 'active' : ''} onClick={_ => this.setState({ menu: !this.state.menu })}>CONTACT</h3></Link>
+                    <div className="navMenuDisplayShell">
+                        <div className="navMenuDisplayContainer">
+                            <Link to="/"><div className="navLogo"></div></Link>
+                            <h1 className={this.state.route !== '/' ? 'navTitle' : 'navTitle navTitleZero'}>OKC EarPro</h1>
+                            <div className="navMenuHolder" onClick={_ => this.setState({ menu: !this.state.menu })}>
+                                <div className={this.state.menu ? "navMenuBar" : "navMenuBar navMenuBarOpen1"}></div>
+                                <div className={this.state.menu ? "navMenuBar" : "navMenuBar navMenuBarOpen2"}></div>
+                                <div className={this.state.menu ? "navMenuBar" : "navMenuBar navMenuBarOpen3"}></div>
+                            </div>
                         </div>
+
+                        <div className={this.state.menu ? "navMenuCover navMenuCoverHide" : "navMenuCover"}>
+                            <div className="navMenuCoverContainer">
+                                <Link to="/"><h3 className={route === '/' ? 'active' : ''} onClick={_ => this.setState({ menu: !this.state.menu })}>HOME</h3></Link>
+                                <Link to="/products"><h3 className={route === '/products' ? 'active' : ''} onClick={_ => this.setState({ menu: !this.state.menu })}>PRODUCTS</h3></Link>
+                                <Link to="/professional"><h3 className={route === '/professional' ? 'active' : ''} onClick={_ => this.setState({ menu: !this.state.menu })}>PROFESSIONAL</h3></Link>
+                                <Link to="/personal"><h3 className={route === '/personal' ? 'active' : ''} onClick={_ => this.setState({ menu: !this.state.menu })}>PERSONAL</h3></Link>
+                                <Link to="/aboutus"><h3 className={route === '/aboutus' ? 'active' : ''} onClick={_ => this.setState({ menu: !this.state.menu })}>ABOUT US</h3></Link>
+                                <Link to="/contact"><h3 className={route === '/contact' ? 'active' : ''} onClick={_ => this.setState({ menu: !this.state.menu })}>CONTACT</h3></Link>
+                            </div>
+                        </div>
+                        <div className="navMenuDivider"></div>
                     </div>
                 </div>
             </div>
