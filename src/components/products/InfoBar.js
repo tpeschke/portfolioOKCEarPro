@@ -25,7 +25,7 @@ export default class InfoBar extends Component {
                 _ => setTimeout(() => this.setState({ performance: "dropBody dropBodyInherit dropPerformanceOpen" }), 1))
         } else {
             this.setState({ performance: 'dropBody dropBodyInherit' },
-                _ => setTimeout(() => this.setState({ performance: "dropBody" }), 1000))
+                _ => setTimeout(() => this.setState({ performance: "dropBody" }), 500))
         }
     }
 
@@ -43,7 +43,7 @@ export default class InfoBar extends Component {
                 _ => setTimeout(() => this.setState({ color: "dropBody dropBodyInherit dropColorOpen" }), 1))
         } else {
             this.setState({ color: 'dropBody dropBodyInherit' },
-                _ => setTimeout(() => this.setState({ color: "dropBody" }), 1000))
+                _ => setTimeout(() => this.setState({ color: "dropBody" }), 500))
         }
     }
 
@@ -59,7 +59,7 @@ export default class InfoBar extends Component {
                 _ => setTimeout(() => this.setState({ mold: "dropBody dropBodyInherit dropMoldOpen" }), 1))
         } else {
             this.setState({ mold: 'dropBody dropBodyInherit' },
-                _ => setTimeout(() => this.setState({ mold: "dropBody" }), 1000))
+                _ => setTimeout(() => this.setState({ mold: "dropBody" }), 500))
         }
     }
 

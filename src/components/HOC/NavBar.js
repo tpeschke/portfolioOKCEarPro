@@ -39,12 +39,17 @@ class NavBar extends Component {
                     <h2>|</h2>
                     <Link to="/contact"><h3 className={route === '/contact' ? 'active' : ''}>CONTACT</h3></Link>
                 </div>
+
+
                 <div className={this.state.show ? 'navBarOuter navReveal' : 'navBarOuter'} id="menu">
+                <div className="navMenuDisplayContainer">
+                <Link to="/"><div className="navLogo"></div></Link>
                     <div className="navMenuHolder" onClick={_ => this.setState({ menu: !this.state.menu })}>
                         <div className={this.state.menu ? "navMenuBar" : "navMenuBar navMenuBarOpen1"}></div>
                         <div className={this.state.menu ? "navMenuBar" : "navMenuBar navMenuBarOpen2"}></div>
                         <div className={this.state.menu ? "navMenuBar" : "navMenuBar navMenuBarOpen3"}></div>
                     </div>
+                </div>
 
                     <div className={this.state.menu ? "navMenuCover navMenuCoverHide" : "navMenuCover"}>
                         <div className="navMenuCoverContainer">

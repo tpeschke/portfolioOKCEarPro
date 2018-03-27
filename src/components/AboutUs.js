@@ -32,11 +32,11 @@ export default class AboutUs extends Component {
 
         return (
             <div className='productsOuter'>
-                <div className="productsHeader">
+                <div className="productsHeader" id="aboutHeader">
                     <h1>About Us</h1>
                 </div>
 
-                <div className="productsContainer">
+                <div className="productsContainer" id="aboutContainer">
                     <div className="aboutLogoLarge"></div>
 
                     <div className="aboutContents">

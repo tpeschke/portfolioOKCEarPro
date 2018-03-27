@@ -269,6 +269,20 @@ h3:hover {
   margin: 25px auto;
   font-size: 25px;
 }
+
+.navMenuDisplayContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.navLogo {
+  background-image: url('./images/earProLogo.png');
+  background-repeat: no-repeat;
+  background-size: 35px;
+  height: 35px;
+  width: 35px;
+}
 // ================PRODUCTS==========
 
 .productsOuter {
@@ -297,6 +311,8 @@ h3:hover {
 
 .productsLogoContainer {
   display: flex;
+  justify-content: baseline;
+  width: 100%;
 }
 
 .productsNav {
@@ -912,6 +928,9 @@ h4 {
   .dropColorOpen {
     height: 65px;
   }
+  .productsNav {
+    width: 600px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -942,6 +961,10 @@ h4 {
   .dropMoldOpen {
     height: 80px;
   }
+  #aboutHeader {
+    flex-direction: row;
+    margin-left: 65px;
+  }
 }
 
 @media (max-width: 426px) {
@@ -950,13 +973,19 @@ h4 {
   }
   #menu {
     display: flex;
-    margin-left: 55px
+    margin:10px auto;
+  }
+  .logoSmall {
+    display: none;
   }
   .navBarOuter {
     margin: 10px;
   }
   .active {
     color: rgb(247, 247, 0);
+  }
+  .productsLogoContainer{
+    justify-content: space-around;
   }
   .productsOuter {
     width: 95vw;
@@ -971,5 +1000,82 @@ h4 {
   }
   .dropMoldOpen {
     height: 145px;
+  }
+  #professionHeader {
+    justify-content: space-around;
+  }
+  .professionalShell {
+    flex-direction: column;
+    align-items: center;
+  }
+  .professionalCardShell {
+    margin: 5px;
+    width: 95%;
+    height: 200px;
+  }
+  .professionalFooter {
+    flex-direction: column;
+    align-items: center;
+    width: 95%
+  }
+  .professionalFooterContainerLeft {
+    width: 325px;
+    margin: 0;
+  }
+  .professionalFooterContainerRight {
+    width: 325px;
+    margin: 0;    
+  }
+  .professionalImageContainer {
+    width: 100%;
+    overflow: hidden;
+  }
+  .professionalImageBanner {
+    width: 938px;
+    transform: translateX(-16%)
+  }
+  .personalCardShell {
+    width: 342px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .personalCardTitleFlip {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .personalCard {
+    width: 342px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .personalImage {
+    width: 342px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .personalCover {
+    width: 342px;
+    margin: 10px auto;
+  }
+  #aboutContainer {
+    flex-direction: column;
+  }
+  .aboutContents {
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .contactContainer {
+    flex-direction: column;
+  }
+  .contactHeader {
+    width: 100%;
+  }
+  .contactDivider {
+    height: 3px;
+    width: 100%;
+    margin-bottom: 35px;
+    background: whitesmoke;
   }
 }
