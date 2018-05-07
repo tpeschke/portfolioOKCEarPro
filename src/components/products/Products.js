@@ -74,7 +74,7 @@ export default class Products extends Component {
             <div className='productsOuter'>
                 <InfoBar />
                 <div className="productsInfo">
-                    <h2>We Offer the full range of Insta-Mold Custom Ear Pieces</h2>
+                    <h2>We offer the full range of Insta-Mold Custom Ear Pieces</h2>
                     <h2>OKC EarPro is an authorized provider of Insta-Mold Products.</h2>
                 </div>
                 <div className="productsShell">
