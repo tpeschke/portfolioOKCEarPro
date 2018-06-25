@@ -15,7 +15,8 @@ $childnum: 124;
 }
 
 body {
-  background: #222
+  background: #222;
+  // background: whitesmoke
 }
 
 h1 {
@@ -362,7 +363,7 @@ h3:hover {
   height: 250px;
   width: 350px;
   margin: 10px;
-  background: whitesmoke;
+  background: white;
   box-shadow: 2px 2px 2px black;
   border-radius: 5px;
   flex-direction: column;
@@ -378,7 +379,13 @@ h3:hover {
 .productImage {
   height: 180px;
   width: 100%;
-  background: lightcoral;
+  overflow: hidden;
+}
+
+.productImageInner {
+  background-size: fill;
+  width: 350px;
+  margin-top: -17%
 }
 
 .cardShell {
@@ -919,21 +926,16 @@ h4 {
 
 
 // ===================================
-
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
   .personalCardShell {
     width: 350px;
   }
   .aboutReviewContainer {
     width: 75%
   }
-  .contactHeader {
-    width: 30%;
-    margin: 10px auto;
-  }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   .dropColorOpen {
     height: 65px;
   }
