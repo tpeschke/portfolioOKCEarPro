@@ -37,7 +37,23 @@ export default class AboutUs extends Component {
                 </div>
 
                 <div className="productsContainer" id="aboutContainer">
-                    <div className="aboutLogoLarge"></div>
+                    {/* <div className="aboutLogoLarge"></div> */}
+                    <div className="aboutLogoOuter">
+                        <div className="aboutLogoInner">
+                            <div className="aboutLogoShell">
+                                <div className="aboutLogoBar1"></div>
+                                <div className="aboutLogoBar2"></div>
+                                <div className="aboutLogoBar3"></div>
+                                <div className="aboutLogoBar4"></div>
+                                <div className="aboutLogoBar5"></div>
+                                <div className="aboutLogoBar6"></div>
+                                <div className="aboutLogoBar7"></div>
+                                <div className="aboutLogoBar8"></div>
+                                <div className="aboutLogoBar9"></div>
+                                <div className="aboutLogoBar10"></div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div className="aboutContents">
                         <h4>Our line of custom-fit (molded) earplugs provide a comfortable fit and give you optimal hearing protection performance. </h4>
