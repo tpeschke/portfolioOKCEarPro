@@ -37,8 +37,10 @@ const express = require('express')
         });
     })
 
+    app.get('*', (req, res)=>{
+        res.sendFile(path.join(__dirname, '../build/index.html'));
+    });
 
-    
     const SERVER_PORT = process.env.SERVER_PORT
 
     app.listen(SERVER_PORT, _ => {
