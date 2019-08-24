@@ -14,6 +14,9 @@ a:link:visited:active {
 a:hover {
   text-decoration: none; }
 
+a {
+  text-decoration: none; }
+
 .logo {
   position: absolute;
   left: 118px;

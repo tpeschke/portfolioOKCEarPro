@@ -1,7 +1,7 @@
 const express = require('express')
     , bodyParser = require('body-parser')
     , cors = require('cors')
-    , dotenv = require('dotenv').config()
+    , local = require('local.js')
     , nodemailer = require('nodemailer')
 
     const app = new express()
@@ -16,14 +16,14 @@ const express = require('express')
             let transporter = nodemailer.createTransport({
                 service: 'Gmail',
                 auth: {
-                    user: process.env.MY_EMAIL,
-                    pass: process.env.MY_LOCK
+                    user: local.MY_EMAIL,
+                    pass: local.MY_LOCK
                 }
             });
 
             let mailOptions = {
                 from: `${req.body.name} <${req.body.from}>`, 
-                to: process.env.MY_EMAIL,
+                to: local.MY_EMAIL,
                 subject: req.body.subject, 
                 html:`<div><p>Number: ${req.body.number} <br/> Email: ${req.body.from}<br/><br/>${req.body.message}</p></div>`
             };
@@ -41,8 +41,6 @@ const express = require('express')
         res.sendFile(path.join(__dirname, '../build/index.html'));
     });
 
-    const SERVER_PORT = process.env.SERVER_PORT
-
-    app.listen(SERVER_PORT, _ => {
-        console.log(`All these worlds and all these people. Yet here we are ${SERVER_PORT}`)
+    app.listen(3000, _ => {
+        console.log(`All these worlds and all these people. Yet here we are ${3000}`)
     })
