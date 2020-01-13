@@ -1,7 +1,7 @@
 const express = require('express')
     , bodyParser = require('body-parser')
     , cors = require('cors')
-    , local = require('local.js')
+    , local = require('./local.js')
     , nodemailer = require('nodemailer')
 
     const app = new express()
@@ -37,7 +37,9 @@ const express = require('express')
         });
     })
 
-    app.get('*', (req, res)=>{
+    const path = require('path')
+
+    app.get('/*', (req, res)=>{
         res.sendFile(path.join(__dirname, '../build/index.html'));
     });
 
