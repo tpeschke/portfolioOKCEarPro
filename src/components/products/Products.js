@@ -78,7 +78,7 @@ export default class Products extends Component {
                     <div className="productCard">
                         <h2 className="productTitle">{val.product}</h2>
                         <div className="productImage">
-                            <img src={val.img} alt="" className="productImageInner"/>
+                            <img src={val.img} alt={val.desc} className="productImageInner"/>
                         </div>
                     </div>
                 </div>

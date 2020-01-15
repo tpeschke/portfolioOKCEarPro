@@ -441,17 +441,16 @@ h3:hover {
 }
 
 .productsShell {
-  @include flexAround();
+  @include flexStandard();
   height: 100%;
   width: 80vw;
   margin: 15px auto;
   flex-wrap: wrap;
-  align-items: baseline;
 }
 
 .productCard {
   @include flexAround();
-  height: 250px;
+  height: 390px;
   width: 350px;
   margin: 10px;
   background: white;
@@ -468,7 +467,6 @@ h3:hover {
 }
 
 .productImage {
-  height: 180px;
   width: 100%;
   overflow: hidden;
 }
@@ -476,7 +474,7 @@ h3:hover {
 .productImageInner {
   background-size: fill;
   width: 350px;
-  margin-top: -17%
+  margin: 0 auto;
 }
 
 .cardShell {
@@ -486,7 +484,7 @@ h3:hover {
 .cardCover {
   position: absolute;
   top: 0;
-  height: 252px;
+  height: 395px;
   width: 352px;
   margin: 9px;
   border-radius: 5px;
