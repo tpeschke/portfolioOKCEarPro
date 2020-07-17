@@ -19,7 +19,7 @@
     "react-responsive-modal": "^2.0.1",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1",
-    "react-svg": "^2.2.15"
+    "react-svg": "^2.2.18"
   },
   "build-css": "node-sass-chokidar src/ -o src/",
   "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
