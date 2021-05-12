@@ -10,7 +10,7 @@
     "express": "^4.16.2",
     "node-sass": "^4.13.0",
     "node-sass-chokidar": "^1.1.0",
-    "nodemailer": "^4.6.3",
+    "nodemailer": "^6.4.16",
     "nodemon": "^1.17.5",
     "npm-run-all": "^4.1.2",
     "react": "^16.2.0",
