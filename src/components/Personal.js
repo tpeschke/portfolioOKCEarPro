@@ -66,9 +66,12 @@ export default class Personal extends Component {
 
         return (
             <div className='productsOuter'>
-                <div className="productsHeader" id="professionHeader">
-                    <div className="logoSmall"></div>
-                    <h1>Personal</h1>
+                <div className="personalHeader">
+                    <div className='productsHeader'>
+                        <div className="logoSmall"></div>
+                        <h1>Personal</h1>
+                    </div>
+                    <p>Hover Over Each Picture to Learn More</p>
                 </div>
 
                 <div className="personalShell">
