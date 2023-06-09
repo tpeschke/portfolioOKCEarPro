@@ -33,7 +33,7 @@ li, h2 {
 }
 
 li, p, input, textarea {
-	font-family: 'Lato';
+	font-family: 'Lato', sans-serif;
 	line-height: 1.5;
 }
 /* HTML5 display-role reset for older browsers */
