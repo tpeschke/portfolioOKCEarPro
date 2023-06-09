@@ -23,11 +23,14 @@ export default class Contact extends Component {
                         <h4>Contact Us Directly</h4>
                         <div className="contactInfo">
                             <i className="glyphicon glyphicon-earphone"></i>
-                            <h2 className="contactInfoStuff">405-328-0439 or 405-815-9885</h2>
+                            <div>
+                                <p className="contactInfoStuff">405-328-0439</p>
+                                <p className="contactInfoStuff">405-815-9885</p>
+                            </div>
                         </div>
                         <div className="contactInfo">
                             <i className="glyphicon glyphicon-send"></i>
-                            <h2 className="contactInfoStuff">Okcearpro@gmail.com  </h2>
+                            <p className="contactInfoStuff">Okcearpro@gmail.com  </p>
                         </div>
                     </div>
                 </div>

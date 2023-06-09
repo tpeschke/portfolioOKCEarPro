@@ -93,10 +93,10 @@ export default class InfoBar extends Component {
                         </ul>
                     </div>
                     <div className={this.state.color}>
-                        <h2>Colors can be mixed, marbled, and tailored to your liking. Logos, decals, images, or names are also available to customize your earpieces to your personality. Chameleon Ears™ can be made with glitter and glow in the dark.</h2>
+                        <p>Colors can be mixed, marbled, and tailored to your liking. Logos, decals, images, or names are also available to customize your earpieces to your personality. Chameleon Ears™ can be made with glitter and glow in the dark.</p>
                     </div>
                     <div className={this.state.mold}>
-                        <h2>Insta-Mold® Custom Molded ear pieces are created directly in your ear so you will receive the most accurately fit headphones available. This guarantees a comfortable fit for hours of use in any setting.</h2>
+                        <p>Insta-Mold® Custom Molded ear pieces are created directly in your ear so you will receive the most accurately fit headphones available. This guarantees a comfortable fit for hours of use in any setting.</p>
                     </div>
                 </div>
             </div>

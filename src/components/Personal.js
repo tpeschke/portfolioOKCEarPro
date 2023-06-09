@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import hunting from '../images/personal/hunting.jpg'
+import shooting from '../images/personal/travel.jpg'
+import sleeping from '../images/personal/sleep.jpg'
 
 export default class Personal extends Component {
     constructor() {
@@ -6,7 +9,7 @@ export default class Personal extends Component {
 
         this.state = {
             pictures: [{
-                id: 1, img: 'http://media.graytvinc.com/images/810*455/Hunting73.jpg', title: 'Shooting/Hunting', subtitle: 'Superior hearing protection that won\'t get in the way of eye protection or get bumped off. Can be filtered to let in the noises you want and keep out the noises you don\'t', cover: 'personalCover'
+                id: 1, img: hunting, title: 'Shooting/Hunting', subtitle: 'Superior hearing protection that won\'t get in the way of eye protection or get bumped off. Can be filtered to let in the noises you want and keep out the noises you don\'t', cover: 'personalCover'
             }, {
                 id: 2, img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr5efRX9sLhwUQJVaLcS2Cmpy7oyL3ikBnmxU_g5mu16SD56r3', title: 'Musicians and Recreational Music Lovers', subtitle: 'Whether you are a professional musician, or you want great sound from your music player, we have options for you. From iPlugz to Z-Series Music Monitors, we can help enhance your musical experience.', cover: 'personalCover'
             }, {
@@ -18,9 +21,9 @@ export default class Personal extends Component {
             }, {
                 id: 6, img: 'https://durhamcollege.ca/wp-content/uploads/Paramedic-%E2%80%93-Advanced-Care-graduate-certificate.jpg', title: 'Law Enforement and Public Service', subtitle: 'Take advantage of custom for, earpieces that can connect directly to most radio systems. We also offer many solutions for lessening the impact of loud sirens while still enabling the wearer to hear important information and noises.', cover: 'personalCover'
             }, {
-                id: 7, img: 'https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.mnn.com%2Fassets%2Fimages%2F2014%2F07%2Fman-reading-woman-sleeping-plane.jpg.600x315_q80_crop-smart.jpg&f=1', title: 'Traveling', subtitle: 'Retreat into your own personal oasis, even when surrounded by other travelers. Get some shut eye or cut out the background noise so you can concentrate on your book.', cover: 'personalCover'
+                id: 7, img: shooting, title: 'Traveling', subtitle: 'Retreat into your own personal oasis, even when surrounded by other travelers. Get some shut eye or cut out the background noise so you can concentrate on your book.', cover: 'personalCover'
             }, {
-                id: 8, img: 'http://blog.myskin.com/wp-content/uploads/2016/10/sleeping-beaut.jpg', title: 'Sleep', subtitle: 'A good night sleep is the foundation to a good day. Block out the noise of a loud dormitory, snoring spouse, airplane engines, and even sleep through the midnight train.', cover: 'personalCover'
+                id: 8, img: sleeping, title: 'Sleep', subtitle: 'A good night sleep is the foundation to a good day. Block out the noise of a loud dormitory, snoring spouse, airplane engines, and even sleep through the midnight train.', cover: 'personalCover'
             }]
         }
     }
@@ -51,8 +54,7 @@ export default class Personal extends Component {
                 <div key={val.id} className="personalCardShell" onMouseEnter={e => this.showCover(val.id)} onMouseLeave={e => this.showCover(val.id)}>
                     <div className={val.cover}>
                         <h1 className="personalCardTitleFlip">{val.title}</h1>
-                        <br />
-                        {val.subtitle}
+                        <p>{val.subtitle}</p>
                     </div>
 
                     <div className="personalCard">

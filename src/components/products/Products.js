@@ -70,16 +70,11 @@ export default class Products extends Component {
     render() {
         var list = this.state.products.map(val => {
             return (
-                <div key={val.id} className="cardShell" onMouseEnter={e => this.showCover(val.id)} onMouseLeave={e => this.showCover(val.id)}>
-                    <div className={val.cover}>
-                        {val.desc}
-                    </div>
-
-                    <div className="productCard">
-                        <h2 className="productTitle">{val.product}</h2>
-                        <div className="productImage">
-                            <img src={val.img} alt={val.desc} className="productImageInner"/>
-                        </div>
+                <div key={val.id} className="productCard">
+                    <h2 className="productTitle">{val.product}</h2>
+                    <p>{val.desc}</p>
+                    <div className="productImage">
+                        <img src={val.img} alt={val.desc} className="productImageInner" />
                     </div>
                 </div>
             )
@@ -89,8 +84,8 @@ export default class Products extends Component {
             <div className='productsOuter'>
                 <InfoBar />
                 <div className="productsInfo">
-                    <h2>We offer the full range of Insta-Mold Custom Ear Pieces</h2>
-                    <h2>OKC EarPro is an authorized provider of Insta-Mold Products.</h2>
+                    <p>We offer the full range of Insta-Mold Custom Ear Pieces</p>
+                    <p>OKC EarPro is an authorized provider of Insta-Mold Products.</p>
                 </div>
                 <div className="productsShell">
                     {list}

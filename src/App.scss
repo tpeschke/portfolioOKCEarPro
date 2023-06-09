@@ -429,7 +429,7 @@ h3:hover {
 }
 
 .productsNav {
-  width: 65%;
+  width: 100%;
   @include flexStandard();
   align-items: center;
 }
@@ -450,15 +450,20 @@ h3:hover {
 
 .productCard {
   @include flexAround();
-  height: 390px;
   width: 350px;
-  margin: 10px;
+  height: 100%;
+  margin: 15px;
   background: white;
   box-shadow: 2px 2px 2px black;
   border-radius: 5px;
   flex-direction: column;
   align-items: center;
   z-index: 1;
+}
+
+.productCard p {
+  padding: 0 10px;
+  color: black;
 }
 
 .productTitle {
@@ -789,17 +794,21 @@ h4 {
 
 .contactHeader {
   width: 45%;
-  height: 75vh;
+  height: unset;
   margin: 5px;
 }
 
 .contactInfo {
   padding-left: 15px;
   margin: 5px;
-  @include flexStandard();
+  display: flex;
   align-items: center;
   align-content: flex-start;
   width: 90%;
+}
+
+.contactInfo i { 
+  margin-right: 10px;
 }
 
 .contactInfoStuff {
@@ -1030,6 +1039,10 @@ h4 {
 }
 
 @media (max-width: 769px) {
+  .contactContainer {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
   .aboutLogoLarge {
     background-size: 200px;
     height: 200px;
@@ -1052,6 +1065,28 @@ h4 {
   }
   .dropMoldOpen {
     height: 80px;
+  }
+  .productsOuter {
+    margin-top: 10px;
+  }
+  .contactDivider {
+    height: 3px;
+    width: 100%;
+    margin-bottom: 35px;
+    background: whitesmoke;
+  }
+  .contactHeader {
+    width: 100%;
+  }
+  .contactContainer {
+    margin-top: 25px;
+    padding: 0;
+  }
+  .contactFormContainer {
+    padding: 0;
+  }
+  .contactDivider {
+    margin-bottom: 0;
   }
   #aboutHeader {
     flex-direction: row;
@@ -1087,28 +1122,7 @@ h4 {
     width: 100%;
     margin-top: 15px;
   }
-  .contactContainer {
-    flex-direction: column;
-  }
-  .contactDivider {
-    height: 3px;
-    width: 100%;
-    margin-bottom: 35px;
-    background: whitesmoke;
-  }
-  .contactHeader {
-    width: 100%;
-  }
-  .contactContainer {
-    margin-top: 25px;
-    padding: 0;
-  }
-  .contactFormContainer {
-    padding: 0;
-  }
-  .contactDivider {
-    margin-bottom: 75px;
-  }
+
   .professionalShell {
     flex-direction: column;
     align-items: center;
@@ -1140,10 +1154,7 @@ h4 {
   .active {
     color: rgb(247, 247, 0);
   }
-  .productsOuter {
-    width: 95vw;
-    margin-top: 10px;
-  }
+
   .productsNav {
     width: 90vw;
     margin: 20px 0 5px 0;

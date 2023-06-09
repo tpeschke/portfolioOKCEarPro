@@ -211,622 +211,622 @@ a:hover {
 
 .bar:nth-child(0) {
   left: -30px;
-  animation-duration: 2043ms;
-  animation-delay: 0.05s; }
+  animation-duration: 2208ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(1) {
   left: 0px;
-  animation-duration: 1865ms;
-  animation-delay: 0.07s; }
+  animation-duration: 1947ms;
+  animation-delay: 0.06s; }
 
 .bar:nth-child(2) {
   left: 30px;
-  animation-duration: 2158ms;
-  animation-delay: 0.05s; }
+  animation-duration: 2036ms;
+  animation-delay: 0.01s; }
 
 .bar:nth-child(3) {
   left: 60px;
-  animation-duration: 1936ms;
+  animation-duration: 2013ms;
   animation-delay: 0.05s; }
 
 .bar:nth-child(4) {
   left: 90px;
-  animation-duration: 2121ms;
-  animation-delay: 0.06s; }
+  animation-duration: 2266ms;
+  animation-delay: 0.03s; }
 
 .bar:nth-child(5) {
   left: 120px;
-  animation-duration: 1900ms;
-  animation-delay: 0.06s; }
+  animation-duration: 1848ms;
+  animation-delay: 0.07s; }
 
 .bar:nth-child(6) {
   left: 150px;
-  animation-duration: 2298ms;
-  animation-delay: 0.03s; }
+  animation-duration: 2116ms;
+  animation-delay: 0.07s; }
 
 .bar:nth-child(7) {
   left: 180px;
-  animation-duration: 1900ms;
-  animation-delay: 0.08s; }
+  animation-duration: 2116ms;
+  animation-delay: 0.01s; }
 
 .bar:nth-child(8) {
   left: 210px;
-  animation-duration: 2147ms;
-  animation-delay: 0.07s; }
+  animation-duration: 2289ms;
+  animation-delay: 0.05s; }
 
 .bar:nth-child(9) {
   left: 240px;
-  animation-duration: 2234ms;
-  animation-delay: 0.04s; }
+  animation-duration: 2299ms;
+  animation-delay: 0.01s; }
 
 .bar:nth-child(10) {
   left: 270px;
-  animation-duration: 2184ms;
-  animation-delay: 0.05s; }
+  animation-duration: 2003ms;
+  animation-delay: 0.07s; }
 
 .bar:nth-child(11) {
   left: 300px;
-  animation-duration: 1823ms;
-  animation-delay: 0.01s; }
+  animation-duration: 1939ms;
+  animation-delay: 0.07s; }
 
 .bar:nth-child(12) {
   left: 330px;
-  animation-duration: 1984ms;
-  animation-delay: 0.08s; }
+  animation-duration: 1859ms;
+  animation-delay: 0.01s; }
 
 .bar:nth-child(13) {
   left: 360px;
-  animation-duration: 1863ms;
+  animation-duration: 2240ms;
   animation-delay: 0.08s; }
 
 .bar:nth-child(14) {
   left: 390px;
-  animation-duration: 2086ms;
-  animation-delay: 0.08s; }
+  animation-duration: 2056ms;
+  animation-delay: 0.06s; }
 
 .bar:nth-child(15) {
   left: 420px;
-  animation-duration: 1853ms;
-  animation-delay: 0.08s; }
+  animation-duration: 1908ms;
+  animation-delay: 0.06s; }
 
 .bar:nth-child(16) {
   left: 450px;
-  animation-duration: 1892ms;
-  animation-delay: 0.04s; }
+  animation-duration: 2040ms;
+  animation-delay: 0.05s; }
 
 .bar:nth-child(17) {
   left: 480px;
-  animation-duration: 2198ms;
-  animation-delay: 0.01s; }
+  animation-duration: 2203ms;
+  animation-delay: 0.06s; }
 
 .bar:nth-child(18) {
   left: 510px;
-  animation-duration: 2188ms;
-  animation-delay: 0.04s; }
+  animation-duration: 2118ms;
+  animation-delay: 0.07s; }
 
 .bar:nth-child(19) {
   left: 540px;
-  animation-duration: 1844ms;
-  animation-delay: 0.01s; }
+  animation-duration: 1828ms;
+  animation-delay: 0.07s; }
 
 .bar:nth-child(20) {
   left: 570px;
-  animation-duration: 1911ms;
-  animation-delay: 0.05s; }
+  animation-duration: 1891ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(21) {
   left: 600px;
-  animation-duration: 1949ms;
-  animation-delay: 0.01s; }
+  animation-duration: 2062ms;
+  animation-delay: 0.07s; }
 
 .bar:nth-child(22) {
   left: 630px;
-  animation-duration: 1897ms;
+  animation-duration: 2015ms;
   animation-delay: 0.04s; }
 
 .bar:nth-child(23) {
   left: 660px;
-  animation-duration: 2120ms;
-  animation-delay: 0.04s; }
+  animation-duration: 1836ms;
+  animation-delay: 0.03s; }
 
 .bar:nth-child(24) {
   left: 690px;
-  animation-duration: 1968ms;
-  animation-delay: 0.02s; }
+  animation-duration: 2023ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(25) {
   left: 720px;
-  animation-duration: 1963ms;
-  animation-delay: 0.02s; }
+  animation-duration: 2079ms;
+  animation-delay: 0.05s; }
 
 .bar:nth-child(26) {
   left: 750px;
-  animation-duration: 2159ms;
-  animation-delay: 0.05s; }
+  animation-duration: 2114ms;
+  animation-delay: 0.01s; }
 
 .bar:nth-child(27) {
   left: 780px;
-  animation-duration: 2133ms;
-  animation-delay: 0.06s; }
+  animation-duration: 1973ms;
+  animation-delay: 0.03s; }
 
 .bar:nth-child(28) {
   left: 810px;
-  animation-duration: 2160ms;
+  animation-duration: 2110ms;
   animation-delay: 0.02s; }
 
 .bar:nth-child(29) {
   left: 840px;
-  animation-duration: 1972ms;
+  animation-duration: 1830ms;
   animation-delay: 0.05s; }
 
 .bar:nth-child(30) {
   left: 870px;
-  animation-duration: 2262ms;
-  animation-delay: 0.03s; }
+  animation-duration: 2143ms;
+  animation-delay: 0.01s; }
 
 .bar:nth-child(31) {
   left: 900px;
-  animation-duration: 2195ms;
-  animation-delay: 0.02s; }
+  animation-duration: 2170ms;
+  animation-delay: 0.08s; }
 
 .bar:nth-child(32) {
   left: 930px;
-  animation-duration: 1972ms;
-  animation-delay: 0.03s; }
+  animation-duration: 1862ms;
+  animation-delay: 0.08s; }
 
 .bar:nth-child(33) {
   left: 960px;
-  animation-duration: 1840ms;
-  animation-delay: 0.03s; }
+  animation-duration: 2163ms;
+  animation-delay: 0.01s; }
 
 .bar:nth-child(34) {
   left: 990px;
-  animation-duration: 2299ms;
-  animation-delay: 0.03s; }
+  animation-duration: 1949ms;
+  animation-delay: 0.05s; }
 
 .bar:nth-child(35) {
   left: 1020px;
-  animation-duration: 2129ms;
-  animation-delay: 0.08s; }
+  animation-duration: 2037ms;
+  animation-delay: 0.02s; }
 
 .bar:nth-child(36) {
   left: 1050px;
-  animation-duration: 2257ms;
-  animation-delay: 0.02s; }
+  animation-duration: 2203ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(37) {
   left: 1080px;
-  animation-duration: 2200ms;
-  animation-delay: 0.07s; }
+  animation-duration: 2008ms;
+  animation-delay: 0.03s; }
 
 .bar:nth-child(38) {
   left: 1110px;
-  animation-duration: 1878ms;
-  animation-delay: 0.06s; }
+  animation-duration: 2000ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(39) {
   left: 1140px;
-  animation-duration: 2257ms;
-  animation-delay: 0.05s; }
+  animation-duration: 1897ms;
+  animation-delay: 0.02s; }
 
 .bar:nth-child(40) {
   left: 1170px;
-  animation-duration: 1896ms;
-  animation-delay: 0.08s; }
+  animation-duration: 2268ms;
+  animation-delay: 0.07s; }
 
 .bar:nth-child(41) {
   left: 1200px;
-  animation-duration: 2115ms;
-  animation-delay: 0.05s; }
+  animation-duration: 2287ms;
+  animation-delay: 0.01s; }
 
 .bar:nth-child(42) {
   left: 1230px;
-  animation-duration: 2198ms;
-  animation-delay: 0.01s; }
+  animation-duration: 2017ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(43) {
   left: 1260px;
-  animation-duration: 1897ms;
-  animation-delay: 0.05s; }
+  animation-duration: 2060ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(44) {
   left: 1290px;
-  animation-duration: 1862ms;
+  animation-duration: 1979ms;
   animation-delay: 0.07s; }
 
 .bar:nth-child(45) {
   left: 1320px;
-  animation-duration: 2083ms;
-  animation-delay: 0.05s; }
+  animation-duration: 1968ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(46) {
   left: 1350px;
-  animation-duration: 1926ms;
-  animation-delay: 0.01s; }
+  animation-duration: 2034ms;
+  animation-delay: 0.06s; }
 
 .bar:nth-child(47) {
   left: 1380px;
-  animation-duration: 1841ms;
-  animation-delay: 0.08s; }
+  animation-duration: 2059ms;
+  animation-delay: 0.05s; }
 
 .bar:nth-child(48) {
   left: 1410px;
-  animation-duration: 2180ms;
-  animation-delay: 0.05s; }
+  animation-duration: 2235ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(49) {
   left: 1440px;
-  animation-duration: 2066ms;
+  animation-duration: 2224ms;
   animation-delay: 0.07s; }
 
 .bar:nth-child(50) {
   left: 1470px;
-  animation-duration: 2031ms;
-  animation-delay: 0.05s; }
+  animation-duration: 1938ms;
+  animation-delay: 0.02s; }
 
 .bar:nth-child(51) {
   left: 1500px;
-  animation-duration: 1989ms;
-  animation-delay: 0.07s; }
+  animation-duration: 2012ms;
+  animation-delay: 0.02s; }
 
 .bar:nth-child(52) {
   left: 1530px;
-  animation-duration: 2271ms;
-  animation-delay: 0.06s; }
+  animation-duration: 2019ms;
+  animation-delay: 0.05s; }
 
 .bar:nth-child(53) {
   left: 1560px;
-  animation-duration: 1890ms;
+  animation-duration: 2110ms;
   animation-delay: 0.06s; }
 
 .bar:nth-child(54) {
   left: 1590px;
-  animation-duration: 1947ms;
-  animation-delay: 0.03s; }
+  animation-duration: 2238ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(55) {
   left: 1620px;
-  animation-duration: 2258ms;
-  animation-delay: 0.01s; }
+  animation-duration: 1806ms;
+  animation-delay: 0.07s; }
 
 .bar:nth-child(56) {
   left: 1650px;
-  animation-duration: 1874ms;
-  animation-delay: 0.06s; }
+  animation-duration: 2235ms;
+  animation-delay: 0.07s; }
 
 .bar:nth-child(57) {
   left: 1680px;
-  animation-duration: 1808ms;
-  animation-delay: 0.05s; }
+  animation-duration: 2100ms;
+  animation-delay: 0.02s; }
 
 .bar:nth-child(58) {
   left: 1710px;
-  animation-duration: 1828ms;
-  animation-delay: 0.03s; }
+  animation-duration: 2266ms;
+  animation-delay: 0.01s; }
 
 .bar:nth-child(59) {
   left: 1740px;
-  animation-duration: 2080ms;
-  animation-delay: 0.05s; }
+  animation-duration: 2006ms;
+  animation-delay: 0.08s; }
 
 .bar:nth-child(60) {
   left: 1770px;
-  animation-duration: 2020ms;
-  animation-delay: 0.04s; }
+  animation-duration: 2053ms;
+  animation-delay: 0.06s; }
 
 .bar:nth-child(61) {
   left: 1800px;
-  animation-duration: 1994ms;
-  animation-delay: 0.08s; }
+  animation-duration: 2219ms;
+  animation-delay: 0.03s; }
 
 .bar:nth-child(62) {
   left: 1830px;
-  animation-duration: 1933ms;
-  animation-delay: 0.07s; }
+  animation-duration: 2196ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(63) {
   left: 1860px;
-  animation-duration: 2071ms;
-  animation-delay: 0.03s; }
+  animation-duration: 1943ms;
+  animation-delay: 0.07s; }
 
 .bar:nth-child(64) {
   left: 1890px;
-  animation-duration: 2186ms;
-  animation-delay: 0.01s; }
+  animation-duration: 2146ms;
+  animation-delay: 0.03s; }
 
 .bar:nth-child(65) {
   left: 1920px;
-  animation-duration: 2023ms;
-  animation-delay: 0.03s; }
+  animation-duration: 1889ms;
+  animation-delay: 0.08s; }
 
 .bar:nth-child(66) {
   left: 1950px;
-  animation-duration: 2201ms;
-  animation-delay: 0.01s; }
+  animation-duration: 2226ms;
+  animation-delay: 0.08s; }
 
 .bar:nth-child(67) {
   left: 1980px;
-  animation-duration: 2206ms;
+  animation-duration: 1986ms;
   animation-delay: 0.03s; }
 
 .bar:nth-child(68) {
   left: 2010px;
-  animation-duration: 2000ms;
-  animation-delay: 0.03s; }
+  animation-duration: 2171ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(69) {
   left: 2040px;
-  animation-duration: 2256ms;
-  animation-delay: 0.05s; }
+  animation-duration: 1854ms;
+  animation-delay: 0.06s; }
 
 .bar:nth-child(70) {
   left: 2070px;
-  animation-duration: 1870ms;
-  animation-delay: 0.08s; }
+  animation-duration: 1841ms;
+  animation-delay: 0.02s; }
 
 .bar:nth-child(71) {
   left: 2100px;
-  animation-duration: 1833ms;
+  animation-duration: 2273ms;
   animation-delay: 0.07s; }
 
 .bar:nth-child(72) {
   left: 2130px;
-  animation-duration: 1997ms;
-  animation-delay: 0.01s; }
+  animation-duration: 2162ms;
+  animation-delay: 0.02s; }
 
 .bar:nth-child(73) {
   left: 2160px;
-  animation-duration: 1838ms;
-  animation-delay: 0.04s; }
+  animation-duration: 2081ms;
+  animation-delay: 0.06s; }
 
 .bar:nth-child(74) {
   left: 2190px;
-  animation-duration: 1895ms;
-  animation-delay: 0.02s; }
+  animation-duration: 2045ms;
+  animation-delay: 0.05s; }
 
 .bar:nth-child(75) {
   left: 2220px;
-  animation-duration: 2001ms;
-  animation-delay: 0.03s; }
+  animation-duration: 1806ms;
+  animation-delay: 0.02s; }
 
 .bar:nth-child(76) {
   left: 2250px;
-  animation-duration: 2112ms;
-  animation-delay: 0.03s; }
+  animation-duration: 2044ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(77) {
   left: 2280px;
-  animation-duration: 2138ms;
-  animation-delay: 0.08s; }
+  animation-duration: 1948ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(78) {
   left: 2310px;
-  animation-duration: 1995ms;
+  animation-duration: 1882ms;
   animation-delay: 0.05s; }
 
 .bar:nth-child(79) {
   left: 2340px;
-  animation-duration: 2146ms;
-  animation-delay: 0.01s; }
+  animation-duration: 1868ms;
+  animation-delay: 0.03s; }
 
 .bar:nth-child(80) {
   left: 2370px;
-  animation-duration: 2261ms;
+  animation-duration: 2038ms;
   animation-delay: 0.04s; }
 
 .bar:nth-child(81) {
   left: 2400px;
-  animation-duration: 2007ms;
-  animation-delay: 0.08s; }
+  animation-duration: 2280ms;
+  animation-delay: 0.05s; }
 
 .bar:nth-child(82) {
   left: 2430px;
-  animation-duration: 2185ms;
-  animation-delay: 0.08s; }
+  animation-duration: 1905ms;
+  animation-delay: 0.06s; }
 
 .bar:nth-child(83) {
   left: 2460px;
-  animation-duration: 2151ms;
-  animation-delay: 0.01s; }
+  animation-duration: 2289ms;
+  animation-delay: 0.03s; }
 
 .bar:nth-child(84) {
   left: 2490px;
-  animation-duration: 1918ms;
-  animation-delay: 0.05s; }
+  animation-duration: 2173ms;
+  animation-delay: 0.01s; }
 
 .bar:nth-child(85) {
   left: 2520px;
-  animation-duration: 2081ms;
-  animation-delay: 0.01s; }
+  animation-duration: 2030ms;
+  animation-delay: 0.08s; }
 
 .bar:nth-child(86) {
   left: 2550px;
-  animation-duration: 1929ms;
-  animation-delay: 0.02s; }
+  animation-duration: 2192ms;
+  animation-delay: 0.08s; }
 
 .bar:nth-child(87) {
   left: 2580px;
-  animation-duration: 1983ms;
-  animation-delay: 0.08s; }
+  animation-duration: 2128ms;
+  animation-delay: 0.01s; }
 
 .bar:nth-child(88) {
   left: 2610px;
-  animation-duration: 2015ms;
-  animation-delay: 0.05s; }
+  animation-duration: 2009ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(89) {
   left: 2640px;
-  animation-duration: 1828ms;
-  animation-delay: 0.05s; }
+  animation-duration: 1846ms;
+  animation-delay: 0.08s; }
 
 .bar:nth-child(90) {
   left: 2670px;
-  animation-duration: 2056ms;
-  animation-delay: 0.07s; }
+  animation-duration: 1844ms;
+  animation-delay: 0.06s; }
 
 .bar:nth-child(91) {
   left: 2700px;
-  animation-duration: 1851ms;
-  animation-delay: 0.08s; }
+  animation-duration: 2235ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(92) {
   left: 2730px;
-  animation-duration: 2004ms;
-  animation-delay: 0.02s; }
+  animation-duration: 2021ms;
+  animation-delay: 0.07s; }
 
 .bar:nth-child(93) {
   left: 2760px;
-  animation-duration: 2014ms;
-  animation-delay: 0.03s; }
+  animation-duration: 2240ms;
+  animation-delay: 0.02s; }
 
 .bar:nth-child(94) {
   left: 2790px;
-  animation-duration: 1962ms;
-  animation-delay: 0.07s; }
+  animation-duration: 1900ms;
+  animation-delay: 0.08s; }
 
 .bar:nth-child(95) {
   left: 2820px;
-  animation-duration: 1888ms;
-  animation-delay: 0.01s; }
+  animation-duration: 1941ms;
+  animation-delay: 0.03s; }
 
 .bar:nth-child(96) {
   left: 2850px;
-  animation-duration: 1805ms;
-  animation-delay: 0.07s; }
+  animation-duration: 1959ms;
+  animation-delay: 0.08s; }
 
 .bar:nth-child(97) {
   left: 2880px;
-  animation-duration: 2236ms;
-  animation-delay: 0.02s; }
+  animation-duration: 2168ms;
+  animation-delay: 0.05s; }
 
 .bar:nth-child(98) {
   left: 2910px;
-  animation-duration: 2042ms;
-  animation-delay: 0.06s; }
+  animation-duration: 2202ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(99) {
   left: 2940px;
-  animation-duration: 1882ms;
-  animation-delay: 0.03s; }
+  animation-duration: 2008ms;
+  animation-delay: 0.01s; }
 
 .bar:nth-child(100) {
   left: 2970px;
-  animation-duration: 1960ms;
-  animation-delay: 0.08s; }
+  animation-duration: 2098ms;
+  animation-delay: 0.05s; }
 
 .bar:nth-child(101) {
   left: 3000px;
-  animation-duration: 1892ms;
-  animation-delay: 0.03s; }
+  animation-duration: 1928ms;
+  animation-delay: 0.06s; }
 
 .bar:nth-child(102) {
   left: 3030px;
-  animation-duration: 1886ms;
-  animation-delay: 0.04s; }
+  animation-duration: 2260ms;
+  animation-delay: 0.07s; }
 
 .bar:nth-child(103) {
   left: 3060px;
-  animation-duration: 1990ms;
-  animation-delay: 0.03s; }
+  animation-duration: 2203ms;
+  animation-delay: 0.08s; }
 
 .bar:nth-child(104) {
   left: 3090px;
-  animation-duration: 1972ms;
-  animation-delay: 0.03s; }
+  animation-duration: 2104ms;
+  animation-delay: 0.07s; }
 
 .bar:nth-child(105) {
   left: 3120px;
-  animation-duration: 1960ms;
+  animation-duration: 1809ms;
   animation-delay: 0.06s; }
 
 .bar:nth-child(106) {
   left: 3150px;
-  animation-duration: 1855ms;
-  animation-delay: 0.07s; }
+  animation-duration: 1969ms;
+  animation-delay: 0.05s; }
 
 .bar:nth-child(107) {
   left: 3180px;
-  animation-duration: 2055ms;
-  animation-delay: 0.07s; }
+  animation-duration: 2185ms;
+  animation-delay: 0.08s; }
 
 .bar:nth-child(108) {
   left: 3210px;
-  animation-duration: 2189ms;
-  animation-delay: 0.08s; }
+  animation-duration: 1869ms;
+  animation-delay: 0.02s; }
 
 .bar:nth-child(109) {
   left: 3240px;
-  animation-duration: 2026ms;
-  animation-delay: 0.01s; }
+  animation-duration: 2199ms;
+  animation-delay: 0.03s; }
 
 .bar:nth-child(110) {
   left: 3270px;
-  animation-duration: 1949ms;
-  animation-delay: 0.01s; }
+  animation-duration: 1859ms;
+  animation-delay: 0.05s; }
 
 .bar:nth-child(111) {
   left: 3300px;
-  animation-duration: 2152ms;
-  animation-delay: 0.02s; }
+  animation-duration: 1995ms;
+  animation-delay: 0.04s; }
 
 .bar:nth-child(112) {
   left: 3330px;
-  animation-duration: 2103ms;
-  animation-delay: 0.07s; }
+  animation-duration: 2003ms;
+  animation-delay: 0.01s; }
 
 .bar:nth-child(113) {
   left: 3360px;
-  animation-duration: 2121ms;
-  animation-delay: 0.02s; }
+  animation-duration: 1976ms;
+  animation-delay: 0.06s; }
 
 .bar:nth-child(114) {
   left: 3390px;
-  animation-duration: 1810ms;
-  animation-delay: 0.04s; }
+  animation-duration: 2153ms;
+  animation-delay: 0.01s; }
 
 .bar:nth-child(115) {
   left: 3420px;
-  animation-duration: 2221ms;
+  animation-duration: 2174ms;
   animation-delay: 0.02s; }
 
 .bar:nth-child(116) {
   left: 3450px;
-  animation-duration: 1874ms;
-  animation-delay: 0.07s; }
+  animation-duration: 2103ms;
+  animation-delay: 0.06s; }
 
 .bar:nth-child(117) {
   left: 3480px;
-  animation-duration: 2049ms;
-  animation-delay: 0.01s; }
+  animation-duration: 2035ms;
+  animation-delay: 0.06s; }
 
 .bar:nth-child(118) {
   left: 3510px;
-  animation-duration: 2263ms;
-  animation-delay: 0.07s; }
+  animation-duration: 1957ms;
+  animation-delay: 0.05s; }
 
 .bar:nth-child(119) {
   left: 3540px;
-  animation-duration: 2050ms;
+  animation-duration: 2096ms;
   animation-delay: 0.08s; }
 
 .bar:nth-child(120) {
   left: 3570px;
-  animation-duration: 2300ms;
+  animation-duration: 1994ms;
   animation-delay: 0.08s; }
 
 .bar:nth-child(121) {
   left: 3600px;
-  animation-duration: 1972ms;
+  animation-duration: 2295ms;
   animation-delay: 0.08s; }
 
 .bar:nth-child(122) {
   left: 3630px;
-  animation-duration: 2003ms;
+  animation-duration: 1993ms;
   animation-delay: 0.07s; }
 
 .bar:nth-child(123) {
   left: 3660px;
-  animation-duration: 2012ms;
+  animation-duration: 1955ms;
   animation-delay: 0.06s; }
 
 .navBarOuter {
@@ -966,7 +966,7 @@ h3:hover {
   width: 100%; }
 
 .productsNav {
-  width: 65%;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center; }
@@ -987,15 +987,19 @@ h3:hover {
 .productCard {
   display: flex;
   justify-content: space-around;
-  height: 390px;
   width: 350px;
-  margin: 10px;
+  height: 100%;
+  margin: 15px;
   background: white;
   box-shadow: 2px 2px 2px black;
   border-radius: 5px;
   flex-direction: column;
   align-items: center;
   z-index: 1; }
+
+.productCard p {
+  padding: 0 10px;
+  color: black; }
 
 .productTitle {
   color: #222;
@@ -1271,17 +1275,19 @@ h4 {
 
 .contactHeader {
   width: 45%;
-  height: 75vh;
+  height: unset;
   margin: 5px; }
 
 .contactInfo {
   padding-left: 15px;
   margin: 5px;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
   align-content: flex-start;
   width: 90%; }
+
+.contactInfo i {
+  margin-right: 10px; }
 
 .contactInfoStuff {
   font-size: 18px; }
@@ -1473,6 +1479,9 @@ h4 {
     width: 600px; } }
 
 @media (max-width: 769px) {
+  .contactContainer {
+    flex-direction: column;
+    flex-direction: column-reverse; }
   .aboutLogoLarge {
     background-size: 200px;
     height: 200px;
@@ -1490,6 +1499,22 @@ h4 {
     height: 83px; }
   .dropMoldOpen {
     height: 80px; }
+  .productsOuter {
+    margin-top: 10px; }
+  .contactDivider {
+    height: 3px;
+    width: 100%;
+    margin-bottom: 35px;
+    background: whitesmoke; }
+  .contactHeader {
+    width: 100%; }
+  .contactContainer {
+    margin-top: 25px;
+    padding: 0; }
+  .contactFormContainer {
+    padding: 0; }
+  .contactDivider {
+    margin-bottom: 0; }
   #aboutHeader {
     flex-direction: row;
     margin-left: 65px; } }
@@ -1515,22 +1540,6 @@ h4 {
     text-align: center;
     width: 100%;
     margin-top: 15px; }
-  .contactContainer {
-    flex-direction: column; }
-  .contactDivider {
-    height: 3px;
-    width: 100%;
-    margin-bottom: 35px;
-    background: whitesmoke; }
-  .contactHeader {
-    width: 100%; }
-  .contactContainer {
-    margin-top: 25px;
-    padding: 0; }
-  .contactFormContainer {
-    padding: 0; }
-  .contactDivider {
-    margin-bottom: 75px; }
   .professionalShell {
     flex-direction: column;
     align-items: center; }
@@ -1553,9 +1562,6 @@ h4 {
     margin: 10px; }
   .active {
     color: #f7f700; }
-  .productsOuter {
-    width: 95vw;
-    margin-top: 10px; }
   .productsNav {
     width: 90vw;
     margin: 20px 0 5px 0; }

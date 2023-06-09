@@ -12,7 +12,7 @@ export default class Professional extends Component {
                 </div>
 
                 <div className="productsInfo" id="professionalInfo">
-                    <h2>This option is best for industrial business applications, or other large group settings. A Professional Fitting Specialist will come to you and create custom earpieces on site. Many of our products can be made on the spot, and those that can't are worth the wait.</h2>
+                    <p>This option is best for industrial business applications, or other large group settings. A Professional Fitting Specialist will come to you and create custom earpieces on site. Many of our products can be made on the spot, and those that can't are worth the wait.</p>
                 </div>
 
                 <div className="professionalImageContainer">

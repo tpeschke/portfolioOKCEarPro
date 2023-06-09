@@ -98,13 +98,13 @@ class ContactForm extends Component {
                     <h3 className="contactFormSubtitle">* required</h3>
 
                     <div className="contactFormChecks">
-                        <h2 className="contactFormHeader">What can we do for you?</h2>
+                        <p className="contactFormHeader">What can we do for you?</p>
                         <div>
-                            <div className="contactRadioLine"><input type="checkbox" value="personal" checked={subject === 'personal'} onChange={e => this.handleInput(e.target.value)} /><h2 className="contactRadioLabel">Personal Appointment</h2></div>
-                            <div className="contactRadioLine"><input type="checkbox" value="business" className="contactCheck" checked={subject === 'business'} onChange={e => this.handleInput(e.target.value)} /><h2 className="contactRadioLabel">Business Consultation</h2></div>
-                            <div className="contactRadioLine"><input type="checkbox" value='event' checked={subject === 'event'} onChange={e => this.handleInput(e.target.value)} /><h2 className="contactRadioLabel">Find or Host Open Event</h2></div>
-                            <div className="contactRadioLine"><input type="checkbox" value="party" checked={subject === 'party'} onChange={e => this.handleInput(e.target.value)} /><h2 className="contactRadioLabel">Group OKC EarPro Party</h2></div>
-                            <div className="contactRadioLine"><input type="checkbox" value="other" checked={subject === 'other'} onChange={e => this.handleInput(e.target.value)} /><h2 className="contactRadioLabel">Other</h2></div>
+                            <div className="contactRadioLine"><input type="checkbox" value="personal" checked={subject === 'personal'} onChange={e => this.handleInput(e.target.value)} /><p className="contactRadioLabel">Personal Appointment</p></div>
+                            <div className="contactRadioLine"><input type="checkbox" value="business" className="contactCheck" checked={subject === 'business'} onChange={e => this.handleInput(e.target.value)} /><p className="contactRadioLabel">Business Consultation</p></div>
+                            <div className="contactRadioLine"><input type="checkbox" value='event' checked={subject === 'event'} onChange={e => this.handleInput(e.target.value)} /><p className="contactRadioLabel">Find or Host Open Event</p></div>
+                            <div className="contactRadioLine"><input type="checkbox" value="party" checked={subject === 'party'} onChange={e => this.handleInput(e.target.value)} /><p className="contactRadioLabel">Group OKC EarPro Party</p></div>
+                            <div className="contactRadioLine"><input type="checkbox" value="other" checked={subject === 'other'} onChange={e => this.handleInput(e.target.value)} /><p className="contactRadioLabel">Other</p></div>
                         </div>
                     </div>
 
