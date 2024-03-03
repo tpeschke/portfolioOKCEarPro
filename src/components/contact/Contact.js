@@ -15,10 +15,6 @@ export default class Contact extends Component {
 
                 <div className="contactContainer">
 
-                    <ContactForm />
-
-                    <div className="contactDivider"></div>
-
                     <div className="contactHeader">
                         <h4>Contact Us Directly</h4>
                         <div className="contactInfo">
@@ -33,6 +29,13 @@ export default class Contact extends Component {
                             <p className="contactInfoStuff">Okcearpro@gmail.com  </p>
                         </div>
                     </div>
+
+                    <div className="contactDivider"></div>
+
+                    {/* <ContactForm /> */}
+
+                    <iframe id="iframeId" src="https://docs.google.com/forms/d/e/1FAIpQLSfagATz1KZo58vwCpyxsn2e0Q_-eT99WQx4KS0lCr15d07y2w/viewform?embedded=true" height="1000px" width="600px" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
+
                 </div>
             </div>
         )
